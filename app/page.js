@@ -1,7 +1,9 @@
-export default function Home() {
+import Hero from "./components/Hero";
+
+export default function Page() {
   return (
-    <main>
-      <h1>Hello World</h1>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+      <Hero />
     </main>
   );
 }
