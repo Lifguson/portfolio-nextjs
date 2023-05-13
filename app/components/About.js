@@ -1,3 +1,5 @@
+"use client";
+
 const About = () => {
   const skills = [
     { skill: "HTML" },
@@ -39,10 +41,10 @@ const About = () => {
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, id) => {
+              {skills.map((item, idx) => {
                 return (
                   <p
-                    key={id}
+                    key={idx}
                     className="bg-neutral-800 dark:bg-gray-100 px-4 py-4 mr-2 mt-2 dark:text-gray-800 text-gray-200 rounded font-semibold dark:shadow-gray-400 shadow-neutral-500 shadow-inner hover:opacity-80"
                   >
                     {item.skill}
