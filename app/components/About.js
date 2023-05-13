@@ -23,7 +23,7 @@ const About = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              A little more about me:
+              A little more about me
             </h1>
             <p>
               Hi, my name is Leon and I am a Fullstack Developer who switched
@@ -31,7 +31,7 @@ const About = () => {
             </p>
             <br />
             <p>
-              When I'm not coding, I'm probably either working out, reading a
+              When I am not coding, I am probably either working out, reading a
               good book, or playing chess. I am also interested in art, music
               and languages, among other things.
             </p>
@@ -43,7 +43,7 @@ const About = () => {
                 return (
                   <p
                     key={id}
-                    className="bg-gray-200 px-4 py-4 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    className="bg-neutral-800 dark:bg-gray-100 px-4 py-4 mr-2 mt-2 dark:text-gray-800 text-gray-200 rounded font-semibold dark:shadow-gray-400 shadow-neutral-500 shadow-inner hover:opacity-80"
                   >
                     {item.skill}
                   </p>
