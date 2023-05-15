@@ -8,25 +8,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const Projects = () => {
   const myProjects = [
     {
+      name: "Booknook",
+      description:
+        "An alternative to Goodreads, which attempts to improve aspects of that site which are lacking",
+      techStack: "Next.js, TypeScript, PrismaORM, Tailwind CSS, Supabase",
+      imageSrc: "/fantasy-1077863_1280.webp",
+      githubLink: "",
+      siteLink: "",
+    },
+    {
       name: "Task Tracker",
       description:
-        "A simple CRUD application with User Authentication. Created with MongoDB, Express.js, React, Node.js",
-      imageSrc: "/tasks-4026398_1280.jpg",
+        "A simple fullstack CRUD application implementing user authentication",
+      techStack: "Node.js, Express.js, React, MongoDB",
+      imageSrc: "/task-tracker.png",
       githubLink: "",
       siteLink: "",
     },
     {
       name: "Airbnb Clone",
-      description: "A recreation of Airbnb, using TypeScript",
+      description: "A recreation of the Airbnb website with full functionality",
+      techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
       imageSrc: "/key-2114044_1280.webp",
-      githubLink: "",
-      siteLink: "",
-    },
-    {
-      name: "Booknook",
-      description:
-        "An alternative to Goodreads, which attempts to improve aspects of that site which are lacking",
-      imageSrc: "/fantasy-1077863_1280.webp",
       githubLink: "",
       siteLink: "",
     },
@@ -58,6 +61,9 @@ const Projects = () => {
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
+                    </p>
+                    <p className="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400 font-semibold">
+                      {project.techStack}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.githubLink} target="_blank">
