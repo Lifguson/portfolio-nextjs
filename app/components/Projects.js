@@ -62,7 +62,7 @@ const Projects = () => {
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
-                    <p className="text-lg leading-7 mb-4 text-neutral-600 dark:text-neutral-400 font-semibold">
+                    <p className="text-lg leading-7 mb-4 text-teal-500 font-semibold">
                       {project.techStack}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
