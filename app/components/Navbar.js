@@ -86,9 +86,9 @@ const Navbar = () => {
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
+                  className="bg-slate-800 p-2 rounded-xl"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} color="white" />
                 </button>
               )}
             </div>
