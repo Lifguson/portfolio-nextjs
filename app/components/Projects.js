@@ -34,8 +34,8 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <h1 className="my-10 text-center font-bold text-4xl">Projects</h1>
-      <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
+      <h1 className="text-center font-bold text-4xl">Projects</h1>
+      <hr className="w-6 h-1 mx-auto mt-6 mb-8 bg-teal-500 border-0 rounded" />
 
       <div className="flex flex-col space-y-28">
         {myProjects.map((project, idx) => {
