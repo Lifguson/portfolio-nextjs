@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4">
         <div className="md:mt-2">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
-            Hi, I'm Leon
+            Hi, I&#39;m Leon
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">Fullstack Developer</p>
           <Link
