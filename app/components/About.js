@@ -28,8 +28,8 @@ const About = () => {
               A little more about me
             </h1>
             <p>
-              Hi, my name is Leon and I am a Fullstack Developer who switched
-              career path after graduating from Law School.
+              I am a Fullstack Developer who switched career path after
+              graduating from Law School.
             </p>
             <br />
             <p>
