@@ -36,7 +36,10 @@ const Hero = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown
+            size={35}
+            className="animate-bounce hover:cursor-pointer"
+          />
         </Link>
       </div>
     </section>
