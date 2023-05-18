@@ -17,7 +17,7 @@ const Navbar = () => {
     hidden: { rotate: -180 },
     visible: {
       rotate: 0,
-      transition: { duration: 1.5 },
+      transition: { duration: 1 },
     },
   };
 
@@ -52,40 +52,41 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="w-full mx-auto py-3 px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
-        <div className="h-20">
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home" className="flex align-center">
-              <motion.div className="">
-                <motion.svg
-                  variants={svgVariants}
-                  initial="hidden"
-                  animate="visible"
-                  className="h-20 overflow-visible dark:stroke-white stroke-2 hover:opacity-70 stroke-black"
-                >
-                  <motion.path
-                    fill="none"
-                    variants={pathVariants}
-                    d="M 0 0 M 0 0 L 5 37.5 L 12.5 20 L 20 37.5 L 25 0 M -5 37.5 H -25 V 0"
-                  ></motion.path>
-                  <motion.path
-                    fill="none"
-                    variants={pathVariants}
-                    d="M 0 -10 L -35 -10 V 47.5 H 35 V -10 H 0"
-                  ></motion.path>
-                </motion.svg>
-              </motion.div>
-            </Link>
-            <div className="md:hidden">
-              <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbarView(!navbarView)}
-              >
-                {navbarView ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
-              </button>
-            </div>
+        <div className="">
+          {/* <div className="flex items-center justify-between py-3 md:py-5 md:block"> */}
+          <Link to="home" className="flex align-center">
+            {/* <motion.div className="flex align-center justify-center"> */}
+            <motion.svg
+              variants={svgVariants}
+              initial="hidden"
+              animate="visible"
+              viewBox="-50 -20 100 100"
+              className="h-20 left-20 overflow-visible dark:stroke-white stroke-2 hover:opacity-70 hover:cursor-pointer stroke-black"
+            >
+              <motion.path
+                fill="none"
+                variants={pathVariants}
+                d="M 0 0 M 0 0 L 7.5 56.25 L 18.75 30 L 30 56.25 L 37.5 0 M -7.5 56.25 H -37.5 V 0"
+              ></motion.path>
+              <motion.path
+                fill="none"
+                variants={pathVariants}
+                d="M 0 -15 L -52.5 -15 V 71.25 H 52.5 V -15 H 0"
+              ></motion.path>
+            </motion.svg>
+            {/* </motion.div> */}
+          </Link>
+          <div className="md:hidden">
+            <button
+              className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+              onClick={() => setNavbarView(!navbarView)}
+            >
+              {navbarView ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
+            </button>
           </div>
+          {/* </div> */}
         </div>
 
         <div>
