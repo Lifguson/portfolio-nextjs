@@ -22,7 +22,7 @@ const Footer = () => {
           >
             <AiOutlineGithub
               size={30}
-              className="hover:translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
             />
           </a>
           <a
