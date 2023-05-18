@@ -30,8 +30,8 @@ const Projects = () => {
       description: "A recreation of the Airbnb website with full functionality",
       techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
       imageSrc: "/key-2114044_1280.webp",
-      githubLink: "",
-      siteLink: "",
+      githubLink: "https://github.com/Lifguson/airbnb-clone",
+      siteLink: "https://property-rental-clone.vercel.app/",
     },
   ];
 
