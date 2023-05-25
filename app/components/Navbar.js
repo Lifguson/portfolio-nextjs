@@ -52,7 +52,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="w-full mx-auto py-3 px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="w-full mx-auto py-3 px-4 sm:px-10 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div className="">
           {/* <div className="flex items-center justify-between py-3 md:py-5 md:block"> */}
@@ -63,7 +63,7 @@ const Navbar = () => {
               initial="hidden"
               animate="visible"
               viewBox="-50 -20 100 100"
-              className="h-20 left-20 overflow-visible dark:stroke-white stroke-2 hover:opacity-70 hover:cursor-pointer stroke-black"
+              className="md:h-20 md:left-20 overflow-visible dark:stroke-white stroke-2 hover:opacity-70 hover:cursor-pointer stroke-black sm:h-12 sm:left-0"
             >
               <motion.path
                 fill="none"
