@@ -2,7 +2,6 @@
 
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
-import Image from "next/image";
 
 const Hero = () => {
   return (
