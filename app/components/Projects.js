@@ -8,6 +8,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const Projects = () => {
   const myProjects = [
     {
+      name: "Airbnb Clone",
+      description: "A recreation of the Airbnb website with full functionality",
+      techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
+      imageSrc: "/key-2114044_1280.webp",
+      githubLink: "https://github.com/Lifguson/airbnb-clone",
+      siteLink: "https://property-rental-clone.vercel.app/",
+    },
+    {
       name: "Booknook",
       description:
         "An alternative to Goodreads, which attempts to improve aspects of that site which are lacking",
@@ -24,14 +32,6 @@ const Projects = () => {
       imageSrc: "/task-tracker.png",
       githubLink: "",
       siteLink: "",
-    },
-    {
-      name: "Airbnb Clone",
-      description: "A recreation of the Airbnb website with full functionality",
-      techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
-      imageSrc: "/key-2114044_1280.webp",
-      githubLink: "https://github.com/Lifguson/airbnb-clone",
-      siteLink: "https://property-rental-clone.vercel.app/",
     },
   ];
 
