@@ -10,12 +10,12 @@ const About = () => {
     { skill: "Next.js" },
     { skill: "Tailwind CSS" },
     { skill: "Framer Motion" },
-    { skill: "Node.js" },
-    { skill: "MongoDB" },
-    { skill: "Express.js" },
-    { skill: "PostgreSQL" },
     { skill: "Bootstrap" },
     { skill: "jQuery" },
+    { skill: "Node.js" },
+    { skill: "Express.js" },
+    { skill: "MongoDB" },
+    { skill: "PostgreSQL" },
     { skill: "Python" },
   ];
 
