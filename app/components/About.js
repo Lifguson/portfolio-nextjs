@@ -16,7 +16,6 @@ const About = () => {
     { skill: "Express.js" },
     { skill: "MongoDB" },
     { skill: "PostgreSQL" },
-    { skill: "Python" },
   ];
 
   return (

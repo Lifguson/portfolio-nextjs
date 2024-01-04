@@ -8,21 +8,43 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 const Projects = () => {
   const myProjects = [
     {
+      name: "Booknook",
+      description:
+        "A full stack web application, where users can track their books and reading progress, add friends, create groups, and more.",
+      techStack: "Next.js, TypeScript, PrismaORM, Tailwind CSS, Supabase",
+      imageSrc: "/fantasy-1077863_1280.webp",
+      githubLink: "",
+      siteLink: "",
+      WIP: true,
+    },
+    {
+      name: "Chroma Corps",
+      description:
+        "A website for an art contest, run by popular YouTuber 'Sinix' (1 million+ subscribers).",
+      techStack: "Next.js, TypeScript, Tailwind CSS, Cloudflare",
+      imageSrc: "/Chroma-Corps-Screenshot.jpg",
+      githubLink: "https://github.com/p4nthera115/chroma-corps-2.0",
+      siteLink: "https://www.chroma-corps.com/",
+      WIP: true,
+    },
+    {
+      name: "Gibraltar Freemasonry Website",
+      description:
+        "Designed and developed the official website for Freemasonry in Gibraltar.",
+      techStack: "HTML, CSS, Bootstrap, jQuery",
+      imageSrc: "/Gib-Freemasonry-Website.jpg",
+      githubLink: "",
+      siteLink: "https://gibfreemasonry.gi/index.html",
+      WIP: true,
+    },
+    {
       name: "Airbnb Clone",
       description: "A recreation of the Airbnb website with full functionality",
       techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
       imageSrc: "/key-2114044_1280.webp",
       githubLink: "https://github.com/Lifguson/airbnb-clone",
       siteLink: "https://property-rental-clone.vercel.app/",
-    },
-    {
-      name: "Booknook",
-      description:
-        "An alternative to Goodreads, which attempts to improve aspects of that site which are lacking",
-      techStack: "Next.js, TypeScript, PrismaORM, Tailwind CSS, Supabase",
-      imageSrc: "/fantasy-1077863_1280.webp",
-      githubLink: "",
-      siteLink: "",
+      WIP: false,
     },
     {
       name: "Task Tracker",
@@ -32,6 +54,7 @@ const Projects = () => {
       imageSrc: "/task-tracker.png",
       githubLink: "",
       siteLink: "",
+      WIP: false,
     },
   ];
 
