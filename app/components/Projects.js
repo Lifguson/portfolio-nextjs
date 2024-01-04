@@ -20,7 +20,7 @@ const Projects = () => {
     {
       name: "Chroma Corps",
       description:
-        "A website for an art contest, run by popular YouTuber 'Sinix' (1 million+ subscribers).",
+        "A website created for popular YouTuber 'Sinix' (1 million+ subscribers), used for organising and showcasing his annual Chroma Corps art contest.",
       techStack: "Next.js, TypeScript, Tailwind CSS, Cloudflare",
       imageSrc: "/Chroma-Corps-Screenshot.jpg",
       githubLink: "https://github.com/p4nthera115/chroma-corps-2.0",
