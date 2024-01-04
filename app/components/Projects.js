@@ -50,7 +50,7 @@ const Projects = () => {
       name: "Task Tracker",
       description:
         "A simple fullstack CRUD application implementing user authentication",
-      techStack: "Node.js, Express.js, React, MongoDB",
+      techStack: "React, Node.js, Express.js, MongoDB",
       imageSrc: "/task-tracker.png",
       githubLink: "",
       siteLink: "",
