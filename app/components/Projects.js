@@ -12,7 +12,7 @@ const Projects = () => {
       description:
         "A full stack web application, where users can track their books and reading progress, add friends, create groups, and more.",
       techStack: "Next.js, TypeScript, PrismaORM, Tailwind CSS, Supabase",
-      imageSrc: "/fantasy-1077863_1280.webp",
+      imageSrc: "/Booknook-Screenshot.jpg",
       githubLink: "",
       siteLink: "",
       WIP: true,
