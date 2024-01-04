@@ -89,6 +89,11 @@ const Projects = () => {
                       {project.techStack}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
+                      {project.name == "Booknook" && (
+                        <p className="text-md text-neutral-600 dark:text-black dark:bg-neutral-200 bg-neutral-400 p-2 rounded-lg">
+                          Work in progress
+                        </p>
+                      )}
                       {project.githubLink !== "" && (
                         <Link href={project.githubLink} target="_blank">
                           <BsGithub
