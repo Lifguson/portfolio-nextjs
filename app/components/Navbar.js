@@ -59,9 +59,7 @@ const Navbar = () => {
     <header className="w-full mx-auto py-3 px-4 sm:px-10 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="justify-between md:items-center md:flex">
         <div className="">
-          {/* <div className="flex items-center justify-between py-3 md:py-5 md:block"> */}
-          <Link to="home" className="flex align-center">
-            {/* <motion.div className="flex align-center justify-center"> */}
+          <Link to="home" className="md:flex align-center hidden">
             <motion.svg
               variants={svgVariants}
               initial="hidden"
