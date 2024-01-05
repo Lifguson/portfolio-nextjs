@@ -49,10 +49,10 @@ const Navbar = () => {
       label: "Projects",
       page: "projects",
     },
-    {
-      label: "Contact",
-      page: "contact",
-    },
+    // {
+    //   label: "Contact",
+    //   page: "contact",
+    // },
   ];
 
   return (
