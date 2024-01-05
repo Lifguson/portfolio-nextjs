@@ -25,7 +25,16 @@ const Projects = () => {
       imageSrc: "/Chroma-Corps-Screenshot.jpg",
       githubLink: "https://github.com/p4nthera115/chroma-corps-2.0",
       siteLink: "https://www.chroma-corps.com/",
-      WIP: true,
+      WIP: false,
+    },
+    {
+      name: "Airbnb Clone",
+      description: "A fully functional recreation of the Airbnb website.",
+      techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
+      imageSrc: "/airbnb-clone-screenshot.jpg",
+      githubLink: "https://github.com/Lifguson/airbnb-clone",
+      siteLink: "https://property-rental-clone.vercel.app/",
+      WIP: false,
     },
     {
       name: "Gibraltar Freemasonry Website",
@@ -37,23 +46,15 @@ const Projects = () => {
       siteLink: "https://gibfreemasonry.gi/index.html",
       WIP: true,
     },
-    {
-      name: "Airbnb Clone",
-      description: "A recreation of the Airbnb website with full functionality",
-      techStack: "Next.js, TypeScript, MongoDB, Prisma ORM, Tailwind CSS",
-      imageSrc: "/key-2114044_1280.webp",
-      githubLink: "https://github.com/Lifguson/airbnb-clone",
-      siteLink: "https://property-rental-clone.vercel.app/",
-      WIP: false,
-    },
+
     {
       name: "Task Tracker",
       description:
-        "A simple fullstack CRUD application implementing user authentication",
+        "A simple fullstack CRUD application implementing user authentication.",
       techStack: "React, Node.js, Express.js, MongoDB",
       imageSrc: "/task-tracker.png",
-      githubLink: "",
-      siteLink: "",
+      githubLink: "https://github.com/Lifguson/todo-list-V3",
+      siteLink: "https://todo-list-v3-1a9q.vercel.app/login",
       WIP: false,
     },
   ];
@@ -89,11 +90,12 @@ const Projects = () => {
                       {project.techStack}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      {project.name == "Booknook" && (
+                      {project.WIP == true && (
                         <p className="text-md text-neutral-600 dark:text-black dark:bg-neutral-200 bg-neutral-400 p-2 rounded-lg">
                           Work in progress
                         </p>
                       )}
+
                       {project.githubLink !== "" && (
                         <Link href={project.githubLink} target="_blank">
                           <BsGithub
