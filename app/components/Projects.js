@@ -46,17 +46,16 @@ const Projects = () => {
       siteLink: "https://gibfreemasonry.gi/index.html",
       WIP: true,
     },
-
-    {
-      name: "Task Tracker",
-      description:
-        "A simple fullstack CRUD application implementing user authentication.",
-      techStack: "React, Node.js, Express.js, MongoDB",
-      imageSrc: "/task-tracker.png",
-      githubLink: "https://github.com/Lifguson/todo-list-V3",
-      siteLink: "https://todo-list-v3-1a9q.vercel.app/login",
-      WIP: false,
-    },
+    // {
+    //   name: "Task Tracker",
+    //   description:
+    //     "A simple fullstack CRUD application implementing user authentication.",
+    //   techStack: "React, Node.js, Express.js, MongoDB",
+    //   imageSrc: "/task-tracker.png",
+    //   githubLink: "https://github.com/Lifguson/todo-list-V3",
+    //   siteLink: "https://todo-list-v3-1a9q.vercel.app/login",
+    //   WIP: false,
+    // },
   ];
 
   return (
