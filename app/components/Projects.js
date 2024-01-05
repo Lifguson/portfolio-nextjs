@@ -70,7 +70,7 @@ const Projects = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
-                    <Link href={project.siteLink}>
+                    <Link href={project.siteLink} target="_blank">
                       <Image
                         src={project.imageSrc}
                         alt=""
